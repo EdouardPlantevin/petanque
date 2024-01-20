@@ -1,0 +1,24 @@
+name: "Pétanque360"
+footer:
+header:
+  connexion: "Connexion"
+  inscription: "Inscription"
+  deconnexion: "Déconnexion"
+homepage:
+  title: "Pétanque360"
+  subtitle: "Le site qui vous permet de gérer votre progression et vos parties de pétanque"
+  stats:
+    title: "Des statistiques impressionnantes"
+    subtitle: "On est pas là pour rigoler"
+    stat_1:
+      title: "Nombre de terrains"
+      value: "1"
+    stat_2:
+        title: "Membres dans l'équipe: 10,000! Euh, non, plutôt"
+        value: "2"
+    stat_3:
+        title: "Heures passées à la pétanque par jour!"
+        value: "25"
+
+chat:
+  title: "Chat"
