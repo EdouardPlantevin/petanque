@@ -14,8 +14,8 @@
             <nav aria-label="Global" class="hidden md:block">
                 <ul class="flex items-center gap-6 text-sm">
                     <li>
-                        <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
-                            About
+                        <a href="{{ path('app_chat') }}" class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                            Chat
                         </a>
                     </li>
                 </ul>
@@ -46,9 +46,9 @@
                     </a>
                 </div>
 
-                <div class="relative inline-block text-left" id="select-locale">
+                <div class="relative inline-block text-left">
                     <div>
-                        <button type="button" class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 " id="menu-button" aria-expanded="true" aria-haspopup="true">
+                        <button type="button" id="select-locale" class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true">
                             {% if app.request.locale == "fr" %}
                                 🇫🇷
                             {% else %}

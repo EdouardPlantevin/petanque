@@ -1,8 +1,8 @@
 
 
 // LOCALE START //
-const selectLocale = document.getElementById('select-locale');
-const contentLocale = document.getElementById('content-locale');
+let selectLocale = document.getElementById('select-locale');
+let contentLocale = document.getElementById('content-locale');
 
 selectLocale.addEventListener('click', function () {
     if (contentLocale.classList.contains('hidden')) {
@@ -10,5 +10,7 @@ selectLocale.addEventListener('click', function () {
     } else {
         contentLocale.classList.add('hidden');
     }
-});
+})
+
+
 // LOCALE END //
