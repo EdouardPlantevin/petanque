@@ -19,3 +19,19 @@ homepage:
       stat_3:
           title: "Hours spent playing petanque per day!"
           value: "25"
+
+chat:
+    title: "Chat"
+    "besoin_connexion": "Login and participate in the discussion"
+
+form:
+  chat:
+    placeholder: "Write your message here..."
+    envoyer: "Send"
+
+validation:
+    message:
+        not_blank: "The message cannot be empty"
+        length:
+        min: "The message must contain at least {{ limit }} characters"
+        max: "The message must contain at most {{ limit }} characters"

@@ -21,4 +21,19 @@
   .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
     border-radius: 0.25rem;
   }
+
+  form[name="message"] {
+    width: 80%;
+  }
+  #message_form {
+    width: 80%;
+  }
+
+  #message {
+    ul {
+      li {
+        color: rgb(20 184 166 / var(--tw-bg-opacity));
+      }
+    }
+  }
 }

@@ -22,3 +22,11 @@ homepage:
 
 chat:
   title: "Chat"
+  "besoin_connexion": "Connectez-vous et participez à la discussion"
+
+form:
+  chat:
+    placeholder: "Ecrivez votre message ici..."
+    envoyer: "Envoyer"
+
+
